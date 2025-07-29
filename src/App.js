@@ -17,10 +17,16 @@ function App() {
     }
   };
 
-  const checkAnswer = () => {
-    const answer = Array.isArray(current.answer) ? current.answer.sort() : [current.answer];
-    return JSON.stringify([...selected].sort()) === JSON.stringify(answer);
-  };
+const checkAnswer = () => {
+  const correct = current.answer;
+  if (current.type === "single") {
+    return selected.length === 1 && selected[0] === correct;
+  } else {
+    const selectedSorted = [...selected].sort();
+    const answerSorted = [...correct].sort();
+    return JSON.stringify(selectedSorted) === JSON.stringify(answerSorted);
+  }
+};
 
   return (
     <div className="max-w-xl mx-auto p-4 text-gray-800">
