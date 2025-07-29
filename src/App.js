@@ -20,11 +20,11 @@ function App() {
 const checkAnswer = () => {
   const correct = current.answer;
   if (current.type === "single") {
-    return selected.length === 1 && selected[0] === correct;
+    return selected[0] === correct;
   } else {
     const selectedSorted = [...selected].sort();
-    const answerSorted = [...correct].sort();
-    return JSON.stringify(selectedSorted) === JSON.stringify(answerSorted);
+    const correctSorted = [...correct].sort();
+    return JSON.stringify(selectedSorted) === JSON.stringify(correctSorted);
   }
 };
 
