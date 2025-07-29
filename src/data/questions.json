@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "question": "What is the next component the refrigerant flows to after passing through the evaporator?",
+    "type": "single",
+    "options": [
+      "Condenser",
+      "Compressor",
+      "Metering Device",
+      "Your AC Unit"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Does the refrigerant change state in the compressor?",
+    "type": "single",
+    "options": [
+      "Yes, it changes from a vapor to a liquid",
+      "Yes it changes from a liquid to a vapor",
+      "Yes, it changes from a liquid to a solid",
+      "No, it does not change state"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 3,
+    "question": "When pressure is increased on a liquid while keeping the temperature constant, what state can the substance change into?",
+    "type": "single",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Vapor",
+      "Water"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "The refrigerant absorbs heat from your indoor air in order to:",
+    "type": "multiple",
+    "options": [
+      "Make your house hotter",
+      "Change state from liquid to vapor",
+      "Make your house cooler",
+      "None of the above"
+    ],
+    "answer": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In the United States, when will all HCFCs be phased out?",
+    "type": "single",
+    "options": [
+      "1995",
+      "2000",
+      "2020",
+      "2030"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "question": "Other than hydrogen, which of the following molecules do HFCs contain? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "Fluorine",
+      "Carbon",
+      "Cadmium",
+      "Chlorine"
+    ],
+    "answer": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "truefalse",
+    "question": "The boiling point of most refrigerants is 212 \u00b0F.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following are considered de minimis releases of refrigerant? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "HCFCs released when disconnecting hoses equipped with low loss fittings",
+      "Release of carbon dioxide with low-loss fittings",
+      "Release of HFCs due to catastrophic failure of equipment",
+      "None of the above"
+    ],
+    "answer": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which of the following are excluded from Section 608 refrigerant management requirements? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "Carbon dioxide",
+      "HFCs",
+      "Water",
+      "Nitrogen"
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which of the following are violations of the CAA Venting Prohibition? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "Release of refrigerants because appliances were not recovered",
+      "Releasing isobutane while servicing equipment",
+      "Releasing HFC refrigerant because of catastrophic equipment failure",
+      "Refrigerants released when disconnecting non low-loss hoses to service an appliance"
+    ],
+    "answer": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which of the following are considered natural refrigerants? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "R-290",
+      "R-600a",
+      "R-744",
+      "R-11"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which organization can test your recovery equipment used to service a system with R-12?",
+    "type": "single",
+    "options": [
+      "UL",
+      "AHRI",
+      "EPA",
+      "Both (A) and (B)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "question": "Who does not need to maintain proper records of refrigerants?",
+    "type": "single",
+    "options": [
+      "Wholesalers",
+      "The EPA",
+      "Reclaimers",
+      "Owners and technicians"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following are considered de minimis releases? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "Catastrophic equipment failure",
+      "Accidental release with timely repair of appliances",
+      "Releases when connecting or disconnecting hoses without low loss fittings",
+      "Releases when connecting or disconnecting hoses with low loss fittings"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Equipment that uses nitrogen as a refrigerant is not subject to Section 608 requirements.",
+    "type": "truefalse",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 16,
+    "question": "What is the purpose of SNAP? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "To evaluate alternative refrigerants",
+      "To further the goals of the CAA",
+      "To consider effects of substitute refrigerants on humans",
+      "To consider effects of substitute refrigerants on the environment"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "The Venting Prohibition requires that you recover affected refrigerant before (Select all that apply):",
+    "type": "multiple",
+    "options": [
+      "Opening equipment",
+      "Servicing equipment",
+      "Disposing of equipment",
+      "Manufacturing equipment"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "State and local regulations _____ (Select all that are true)",
+    "type": "multiple",
+    "options": [
+      "Have to be followed in addition to federal CAA regulations",
+      "Have to be followed instead of federal CAA regulations",
+      "May be stricter than federal CAA regulations",
+      "Are a suggestion"
+    ],
+    "answer": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Section 608 of the Clean Air Act is:",
+    "type": "single",
+    "options": [
+      "A set of federal guidelines on limiting air pollutants",
+      "Federal law",
+      "State law",
+      "A global treaty"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following records must be kept for an R-22? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "Type of refrigerant",
+      "Dates",
+      "Quantity of refrigerant",
+      "Model of appliance"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "In the United States, when were R-22 and R-142b phased out?",
+    "type": "single",
+    "options": [
+      "1995",
+      "2000",
+      "2020",
+      "2030"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "question": "If you are selling R-22 refrigerant, who can you sell to? (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      "An environmentalist",
+      "An EPA official",
+      "A technician with Section 608 certification",
+      "A business that employs a technician with Section 608 certification"
+    ],
+    "answer": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What molecule destroys the ozone layer?",
+    "type": "single",
+    "options": [
+      "Carbon",
+      "Chlorine",
+      "Calcium",
+      "Fluorine"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "Do natural events like volcanic eruptions contribute to chlorine in the stratosphere?",
+    "type": "single",
+    "options": [
+      "Yes, chlorine in the stratosphere is primarily from natural sources such as volcanoes",
+      "Yes, chlorine can come from natural sources such as volcanoes, but they are not the primary source",
+      "No, all chlorine comes from refrigerants released",
+      "There is no chlorine in the stratosphere"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "R-12 has a GWP in which of the following ranges?",
+    "options": [
+      "1-500",
+      "500-1000",
+      "1000-10,000",
+      "10,000-50,000"
+    ],
+    "answer": "D",
+    "type": "single"
+  },
+  {
+    "id": 26,
+    "question": "R-410a has a GWP in which of the following ranges?",
+    "options": [
+      "1-500",
+      "500-1000",
+      "1000-10,000",
+      "10,000-50,000"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 27,
+    "question": "What is the main safety concern with R-410a?",
+    "options": [
+      "None, it\u2019s an A1 refrigerant so there are no safety concerns",
+      "Toxicity",
+      "Blood oxygenation",
+      "Asphyxia"
+    ],
+    "answer": "D",
+    "type": "single"
+  },
+  {
+    "id": 28,
+    "question": "What does the new subclass (2L) describe?",
+    "options": [
+      "Alternate highly flammable refrigerants",
+      "Refrigerants that are Class 2 and burn slowly",
+      "Refrigerants that are Class 2 and take longer to be effective",
+      "Refrigerants that are toxic"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 29,
+    "question": "What is highest possible ODP for any CFC, HCFC, HFC, or HFO refrigerant?",
+    "options": [
+      "0",
+      "1",
+      "100",
+      "Infinite"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 30,
+    "question": "What is the ODP of R-441a?",
+    "options": [
+      "0",
+      "0.1",
+      "0.2",
+      "1"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 31,
+    "question": "What is the ODP of R-600a?",
+    "options": [
+      "1",
+      "0",
+      "0.5",
+      "0.25"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following classes refers to a refrigerant that has low flammability?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "A"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following are HCFCs that are seen in most refrigeration systems today?",
+    "options": [
+      "R-22",
+      "R-123",
+      "R-124",
+      "R-231"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 34,
+    "question": "Which of the following are HCFCs? (Choose all that apply)",
+    "options": [
+      "R-22",
+      "R-123",
+      "R-124",
+      "R-211"
+    ],
+    "answer": [
+      "A, B, C"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following refrigerants are HFCs? (Select all that apply)",
+    "options": [
+      "R-134a",
+      "R-32",
+      "R-12",
+      "R-22"
+    ],
+    "answer": [
+      "A, B"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 36,
+    "question": "Why are HFCs still considered harmful to the environment?",
+    "options": [
+      "Because they deplete the ozone layer",
+      "Because they cause cancer",
+      "Because they increase global warming",
+      "Because they are harmful to plants"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following statements about carbon dioxide is true? (Select all that apply)",
+    "options": [
+      "Carbon dioxide has a GWP of 1",
+      "Carbon dioxide has a GWP of 0",
+      "Carbon dioxide has an ODP of 0",
+      "Carbon dioxide has an ODP of 1"
+    ],
+    "answer": [
+      "A, C"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following are natural refrigerants? (Select all that apply)",
+    "options": [
+      "R-600a",
+      "HC-600a",
+      "R-134a",
+      "R-22"
+    ],
+    "answer": [
+      "A, B"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 39,
+    "question": "Which safety classification of refrigerants is most dangerous to use?",
+    "options": [
+      "B3",
+      "B2L",
+      "A4",
+      "A2"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 40,
+    "question": "Which type of refrigerants are most harmful to the ozone layer?",
+    "options": [
+      "HFOs",
+      "UFOs",
+      "HCFCs",
+      "CFCs"
+    ],
+    "answer": "D",
+    "type": "single"
+  },
+  {
+    "id": 41,
+    "question": "Which types of refrigerants have the lowest GWPs? (Select two)",
+    "options": [
+      "CFCs",
+      "HFCs",
+      "HFOs",
+      "HCs"
+    ],
+    "answer": [
+      "C, D"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 42,
+    "question": "The lowest number for an ozone depletion potential (ODP) is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "false",
+    "type": "truefalse"
+  },
+  {
+    "id": 43,
+    "question": "When drawing deep vacuums, a hermetic recovery machine will:",
+    "options": [
+      "Run faster than other recovery units",
+      "Overheat due to reduced flow of refrigerant through the compressor",
+      "Cause high compression of recovered refrigerant",
+      "Make the oil used in hermetic compressor to become highly viscous"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 44,
+    "question": "A technique to speed up the recovery process is:",
+    "options": [
+      "Use a plastic recovery tank",
+      "Cool the recovery cylinder",
+      "Use a four-stage vacuum pump",
+      "Heat the recovery cylinder"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 45,
+    "question": "During refrigerant recovery, water from the local municipal water supply is used to cool the:",
+    "options": [
+      "Water-cooled chillers",
+      "Hermetic recovery unit",
+      "Water-cooled recovery unit",
+      "Deionized water recovery unit"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 46,
+    "question": "Recovering refrigerant from a system in the liquid phase will cause the loss of which of the following?",
+    "options": [
+      "Water",
+      "Oil",
+      "Refrigerant",
+      "Non-condensables"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 47,
+    "question": "Refrigerant cannot be recovered without isolating a parallel compressor system because of:",
+    "options": [
+      "the service valve connection",
+      "the electrical connections",
+      "an open equalization connection",
+      "the thermal bleed connection"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 48,
+    "question": "What steps should be taken before using a recovery unit to remove a charge?",
+    "options": [
+      "Acid testing the refrigerant",
+      "Purging the recovery unit with nitrogen",
+      "Changing the oil in the recovery unit",
+      "Checking the service valve positions and recovery oil level, when applicable"
+    ],
+    "answer": "D",
+    "type": "single"
+  },
+  {
+    "id": 49,
+    "question": "Which one of the following refrigerants has the lowest global warming potential (GWP)?",
+    "options": [
+      "R-12",
+      "R-22",
+      "R-410a",
+      "R-1234yf"
+    ],
+    "answer": "D",
+    "type": "single"
+  },
+  {
+    "id": 50,
+    "question": "Which statement is true about hydrocarbons?",
+    "options": [
+      "Are generally A3 refrigerants",
+      "Have high toxicity",
+      "Have low flammability",
+      "Are safe to use because they are natural refrigerants"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 51,
+    "question": "Which of the following do HFOs contain? (Select all that apply)",
+    "options": [
+      "Fluorine",
+      "Falon",
+      "Oxygen",
+      "Carbon"
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following do HFOs contain?",
+    "options": [
+      "Hydrogen",
+      "Halon",
+      "Chlorine",
+      "Oxygen"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 53,
+    "question": "Other than fluorine and chlorine, what do HCFCs contain? (Select all that apply)",
+    "options": [
+      "Hydrogen",
+      "Carbon",
+      "Helium",
+      "Calcium"
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 54,
+    "question": "B2 refrigerants are more dangerous than which of the following? (Select all that apply)",
+    "options": [
+      "B1",
+      "B3",
+      "A1",
+      "A2"
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 55,
+    "question": "What is the state of the refrigerant when it enters the condenser?",
+    "type": "single",
+    "options": [
+      "High pressure liquid",
+      "Low pressure liquid",
+      "High pressure vapor",
+      "Low pressure vapor"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 56,
+    "question": "When the refrigerant enters the metering device, what state is it in?",
+    "options": [
+      "Low pressure liquid",
+      "High pressure liquid",
+      "Low pressure vapor",
+      "High pressure vapor"
+    ],
+    "answer": "B",
+    "type": "single"
+  },
+  {
+    "id": 57,
+    "question": "When refrigerant exits the metering device, what state is it in?",
+    "options": [
+      "Low pressure liquid",
+      "High pressure liquid",
+      "Low pressure vapor",
+      "High pressure vapor"
+    ],
+    "answer": "A",
+    "type": "single"
+  },
+  {
+    "id": 58,
+    "question": "When the refrigerant enters the compressor from the evaporator, what state is it in?",
+    "options": [
+      "Supercooled vapor",
+      "Supercooled liquid",
+      "Superheated Vapor",
+      "Superheated liquid"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 59,
+    "question": "When the refrigerant enters the evaporator, what state is it in?",
+    "type": "single",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Vapor",
+      "Water"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "question": "When the refrigerant exits the evaporator, what state is it in?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Vapor",
+      "Water"
+    ],
+    "answer": "C",
+    "type": "single"
+  },
+  {
+    "id": 61,
+    "question": "What is the state of the refrigerant when it exits the evaporator?",
+    "type": "single",
+    "options": [
+      "Low pressure liquid",
+      "High pressure vapor",
+      "Low pressure vapor",
+      "High pressure liquid"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "question": "How many molecules of ozone can three molecules of chlorine destroy?",
+    "type": "single",
+    "options": [
+      "3000",
+      "100000",
+      "300000",
+      "10000000"
+    ],
+    "answer": "C"
+  }
+]
