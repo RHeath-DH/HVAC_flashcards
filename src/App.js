@@ -1,92 +1,81 @@
 import React, { useState } from "react";
 import questions from "./data/questions.json";
 
-function FlashcardApp() {
+function App() {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState([]);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [feedback, setFeedback] = useState(null);
 
   const current = questions[index];
 
-  const toggleChoice = (letter) => {
+  const toggleSelect = (letter) => {
     if (current.type === "multiple") {
       setSelected((prev) =>
-        prev.includes(letter)
-          ? prev.filter((l) => l !== letter)
-          : [...prev, letter]
+        prev.includes(letter) ? prev.filter((l) => l !== letter) : [...prev, letter]
       );
     } else {
       setSelected([letter]);
     }
   };
 
-  const isCorrect = () => {
-    const correct = Array.isArray(current.answer)
-      ? current.answer.sort()
-      : [current.answer];
-    const picked = [...selected].sort();
-    return JSON.stringify(correct) === JSON.stringify(picked);
+  const checkAnswer = () => {
+    const correct = Array.isArray(current.answer) ? [...current.answer].sort() : [current.answer];
+    const selectedSorted = [...selected].sort();
+    const isCorrect = JSON.stringify(selectedSorted) === JSON.stringify(correct);
+    setFeedback({
+      isCorrect,
+      correctAnswer: correct.join(", "),
+    });
   };
 
-  const handleNext = () => {
-    setIndex((prev) => (prev + 1) % questions.length);
+  const nextQuestion = () => {
+    setIndex((i) => (i + 1) % questions.length);
     setSelected([]);
-    setShowAnswer(false);
+    setFeedback(null);
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-2xl mx-auto bg-white shadow-md rounded-xl p-6">
-        <h1 className="text-2xl font-bold text-blue-700 mb-4">
-          Question {current.id}
-        </h1>
-        <p className="text-lg mb-4">{current.question}</p>
-        <div className="space-y-2">
-          {Object.entries(current.options).map(([letter, text]) => (
-            <button
-              key={letter}
-              className={`w-full text-left px-4 py-2 border rounded-md transition-colors duration-150 ${
-                selected.includes(letter)
-                  ? "bg-blue-200 border-blue-500"
-                  : "bg-white hover:bg-gray-100"
-              }`}
-              onClick={() => toggleChoice(letter)}
-              disabled={showAnswer}
-            >
-              <span className="font-semibold mr-2">{letter}.</span>
-              {text}
-            </button>
-          ))}
-        </div>
-
-        <div className="mt-6 flex gap-4">
+    <div className="max-w-xl mx-auto p-6 text-gray-800">
+      <h1 className="text-2xl font-bold mb-4">Flashcard {current.id}</h1>
+      <p className="mb-4">{current.question}</p>
+      <div className="space-y-2">
+        {Object.entries(current.options).map(([letter, text]) => (
           <button
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded"
-            onClick={() => setShowAnswer(true)}
-            disabled={showAnswer || selected.length === 0}
+            key={letter}
+            className={`block w-full text-left px-4 py-2 border rounded ${selected.includes(letter) ? 'bg-blue-100' : 'bg-white'}`}
+            onClick={() => toggleSelect(letter)}
           >
-            Check Answer
+            <strong>{letter}.</strong> {text}
           </button>
-          <button
-            className="bg-gray-500 hover:bg-gray-600 text-white font-semibold px-4 py-2 rounded"
-            onClick={handleNext}
-          >
-            Next
-          </button>
-        </div>
-
-        {showAnswer && (
-          <div
-            className={`mt-4 p-4 rounded text-white font-semibold ${
-              isCorrect() ? "bg-green-500" : "bg-red-500"
-            }`}
-          >
-            {isCorrect() ? "Correct!" : "Incorrect."}
-          </div>
-        )}
+        ))}
       </div>
+      <div className="mt-4 flex gap-2">
+        <button
+          onClick={checkAnswer}
+          className="bg-green-500 text-white px-4 py-2 rounded"
+        >
+          Check Answer
+        </button>
+        <button
+          onClick={nextQuestion}
+          className="bg-gray-500 text-white px-4 py-2 rounded"
+        >
+          Next
+        </button>
+      </div>
+      {feedback && (
+        <div className="mt-4">
+          {feedback.isCorrect ? (
+            <p className="text-green-600 font-bold">Correct!</p>
+          ) : (
+            <p className="text-red-600 font-bold">
+              Incorrect. Correct answer: {feedback.correctAnswer}
+            </p>
+          )}
+        </div>
+      )}
     </div>
   );
 }
 
-export default FlashcardApp;
+export default App;
