@@ -30,7 +30,7 @@ function App() {
         {Object.entries(current.options).map(([letter, text]) => (
           <button
             key={letter}
-            className={\`block w-full text-left px-4 py-2 border rounded \${selected.includes(letter) ? 'bg-blue-100' : 'bg-white'}\`}
+            className={`block w-full text-left px-4 py-2 border rounded ${selected.includes(letter) ? 'bg-blue-100' : 'bg-white'}`}
             onClick={() => toggleSelect(letter)}
           >
             <strong>{letter}.</strong> {text}
