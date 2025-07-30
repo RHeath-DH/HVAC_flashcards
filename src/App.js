@@ -20,16 +20,25 @@ function App() {
     }
   };
 
-  const checkAnswer = () => {
-    const correct = Array.isArray(current.answer)
-      ? current.answer.map((a) => a.toUpperCase()).sort()
-      : [current.answer.toUpperCase()];
+const checkAnswer = () => {
+  const correct = Array.isArray(current.answer)
+    ? current.answer.map((a) => a.toUpperCase()).sort()
+    : [current.answer.toUpperCase()];
 
-    const selectedSorted = [...selected].map((s) => s.toUpperCase()).sort();
-    const isCorrect = JSON.stringify(selectedSorted) === JSON.stringify(correct);
-    setIsCorrect(isCorrect);
-    setAnswered(true);
-  };
+  const selectedSorted = [...selected].map((s) => s.toUpperCase()).sort();
+
+  // 🛠️ Debugging logs
+  console.log("Selected (sorted):", selectedSorted);
+  console.log("Correct (sorted):", correct);
+  console.log(
+    "Match?",
+    JSON.stringify(selectedSorted) === JSON.stringify(correct)
+  );
+
+  const isCorrect = JSON.stringify(selectedSorted) === JSON.stringify(correct);
+  setIsCorrect(isCorrect);
+  setAnswered(true);
+};
 
   const nextQuestion = () => {
     setIndex((i) => (i + 1) % questions.length);
